@@ -1,7 +1,7 @@
 # Schedulr
 &lt;br> Schedulr.
 
-Schedulr is a project that creates periods of time to study based on your courses for the semester. Based off of Utm Computer Science Courses
+Schedulr is a project that creates periods of time to study based on your courses for the semester. Based off of Utm Computer Science Courses and created with 3 other students at the University of Toronto.
 
 ## Setup:
   ### 1. Make sure Node.js and npm are installed on your computer
@@ -55,11 +55,18 @@ Schedulr is a project that creates periods of time to study based on your course
 
 ## Deployment
 
-Now inorder to run the program use the follwing command in the directory schedulr/frontend
+In order to have the project running, there are two sets of commands which you need to run, given the installation was done properly
 
+On the first terminal, make sure it is on schedulr/frontend and then run 
 ```bash
 npm start
 ```
+
+On the second terminal, make sure the virtual environment is activated and terminal is on schedulr/backend, if not, look at installation again , then run
+```python	
+  python manage.py runserver
+```
+
   
 ##  User Manual
 In order to use the app
