@@ -64,7 +64,7 @@ npm start
 
 On the second terminal, make sure the virtual environment is activated and terminal is on schedulr/backend, if not, look at installation again , then run
 ```python	
-  python manage.py runserver
+python manage.py runserver
 ```
 
   
